@@ -1,0 +1,2 @@
+# DataScienceUniversity
+Applied mathematics simplified.
