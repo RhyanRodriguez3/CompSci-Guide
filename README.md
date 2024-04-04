@@ -1,2 +1,10 @@
-# DataScienceUniversity
-Applied mathematics simplified.
+# Data Science Guide
+
+## Computer Science
+
+## Statistics
+
+## Data Structures & Algorithms
+
+
+
