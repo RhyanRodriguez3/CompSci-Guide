@@ -1,10 +1,10 @@
 # Data Science Guide
 
-## Computer Science
+## 🖥️ Computer Science
 
-## Statistics
+## 🎲 Statistics
 
-## Data Structures & Algorithms
+## 🧮 Data Structures & Algorithms
 
 
 
