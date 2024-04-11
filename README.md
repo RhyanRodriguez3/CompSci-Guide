@@ -32,11 +32,17 @@ Software is made by programming languages
 </details>
 
 
-<!--
 <details>
- <summary>About Me</summary>
+ <summary>Sources</summary>
+ 
+> Beginner Computer Science w/CrashCourse : https://www.youtube.com/watch?v=RU1u-js7db8&list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo&index=14
+>
+> Hardware: https://www.youtube.com/watch?v=d86ws7mQYIg
+>
+> Servers vs Desktop: https://www.youtube.com/watch?v=UjCDWCeHCzY
+
 </details>
--->
+
 ## 🎲 Statistics
 >
 >
