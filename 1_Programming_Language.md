@@ -37,7 +37,13 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles.
 - A loop is a statement that is used to run certain instruction repeatedly. There are three different types of loops.
 1. `For loops` are used when you would like to carry out a certain set of instructions numerious times. Consists of three parts, an integer value, a conditional statement the integerger must readh to exit the loop, and an operation to modify the integer value after the instructions inside of the loop are completed. You must make sure to set up a condition where the intial integer value and the operation will at some point be met.
 2. `For Each` loop is used for iterating through entire arrays or lists. The loop will go through each element in the array  and carry out a set of instructions for each value. Useful for perfomring operations accross an entire collection of data.
-3. `While Loop` will continue while a conditional statement given is true. Do while loops are similar to while loops but will always carry out instructions at leas once. Instructions inside loop will run once before checking the conditional statement.  
+3. `While Loop` will continue while a conditional statement given is true. Do while loops are similar to while loops but will always carry out instructions at least once. Instructions inside loop will run once before checking the conditional statement.  
+
+## Errors
+- There are three different types of errors, syntax, runtime, and logic errors. Errors are referred to as bugs.
+- Runtime errors are caused by a part of your code cpmputed in a resonable amount of time. Ex: The infinite loop. Runtime errors are usually caused by a  statement in your code that seems logically sound, but the computer physically has no way of  computing it in a reasonable amount of time.  
+- 51:53
+
 
 ---
 
