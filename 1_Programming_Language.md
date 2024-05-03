@@ -1,5 +1,5 @@
 # Programming Language Guide
-Purpose: to be a good enough programmer to qualify for junior BI dev roles.
+Purpose: to be a good enough programmer to qualify for junior BI dev roles. Research a lanaugae we've talked baout that intereste you. Research their official website and wiki page to decide if thats the language you would like to start with. Then learn the langugage you decide to pursure, use youtube as a source. Once you learn how to program using that languages syntax and concepts, use coding bat to kick start your code writing, coderbyte with challegnes, and hackerRank. Important com sci concepts are data strutures, and data science. 
 
 <details>
  <summary>Introduction to Programming and Computer Science - Full Course</summary>
@@ -8,7 +8,10 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles.
 ### The computer
 - Programming is the process of preparing an instructional program for a device. Attempting to get a computer to  complete a specific task without making mistakes.  
 - The computer only understands machine code, which is binary code. You need to convert your instructions for the machien to execute it. Programming languages are fundamentally a middleman for translating a  program into machine code. they serve as interprets for converting languages into other languages.
-- There are many programming languages and each have their own specific uses, general purpose languages like pythong and Java can perform a variety of computational tasks and other languages are for specific tasks. Low  low level programming languages, such as assembly, or C, are closer to binary than  a high level programming language, such as Java or Python. Each language is specified for specific tasks.
+- There are many programming languages and each have their own specific uses, general purpose languages like pythong and Java can perform a variety of computational tasks and other languages are for specific tasks. Low  low level programming languages, such as assembly, or C, are closer to binary than  a high level programming language, such as Java or Python. Each language is specified for specific tasks and has its own advantages and disadvantages. High level langauges have more abstraction from machine code an easier to learn, lower level languages are closer to the machine cldoe but often provide more functionality.
+  - For web development: HTML and CSS. HTML is a markup language used for writing the content of a website.  CSS is used to style the design of a website.
+  - A scripting langauge is a langauge with many commands for you to use than can be run without being compiled. Easier to port between operating systems. Also used in web dev. Ex are Perl, PHP, Ajax, and JavaScript.
+  - General purpose language offer a wide range of uses and applications. A good basic language such as Java, Python, and C++. Java is good for game / Web development Python is good for data analysis and scripting, while C++ tends to be used for writing applications and system programs. These are good basics but be aware that you should find the one which you like the most syntax. 
 - The computer knows how to do arithmetic (x, +, -, /).
 - It also knows how to handle string (text). Concatenating is adding strings together. Quotations make the value a string.
 
@@ -27,11 +30,13 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles.
 - Naming conventions of variables: CamelCase, SnakeCase
 - Conditional statements: are statements that change  the path of our code depending on certain conditions. Depending on certain conditions, we want our code to do different things. If Then statements. Most programming langauges use braces (), whatever is inside the braces will be evaluated as either true or false. When true, it executes, when false it moves to the next condition or stops. Else is a statement that comes after the if statements. Switch variable statements define the variable then write cases for each condition and their instructions. are similar to if then or else statements. Conditional statements is improtatn because it adds variability to programming, allowing the user to adapt to different tasks.
 
-## Arrays
+## Arrays and Dictionaries
 - Variables are good at storing singular bits of information, and are unable to hold more than one piece of data.
-- An array is a list of something, such as int, str, and other arrays. Usually the data is related. Think of arrays as column in excel.
+- An array is a list of similar values, such as int, str, and other arrays. Usually the data is related. Think of arrays as column in excel.
 - When referencing arrays, reference each element of the array within them. For example, you create an array of 1 to 10. In programming we use index to refer to a value. An index is just a fancy way of saying that numbers place within the array. The index starts as 0.  
-- When creating arrays, called initializing, you can insert the values or you can define array parameters to be used later. Once an array has been dfeined, there is no way to change it's size. When initizaliing, you must determine the array type. 2D arrays are arrays inside of an array.
+- When creating arrays, called initializing, you can insert the values or you can define array parameters to be used later. Once an array has been dfeined, there is no way to change it's size. When initizaliing, you must determine the array type. 2D arrays are arrays inside of an array. 
+- There are more than one ways to store data such as linked lists, stacks, queues, maps,  trees, and many others. Array lists is a growing array, that dynamically changes its size when you don't know the exact number of values that an array list will need to store. For example, a database of users. 
+- Dictionaries are a different way of storing values. It stores multiple values and tied to an identifier that is used to reference the value, called a key. When you use a dictionary, you use the unque key and the dictionary will tell you the value tied to it. 
 
 ## Loops
 - A loop is a statement that is used to run certain instruction repeatedly. There are three different types of loops.
@@ -42,8 +47,35 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles.
 ## Errors
 - There are three different types of errors, syntax, runtime, and logic errors. Errors are referred to as bugs.
 - Runtime errors are caused by a part of your code cpmputed in a resonable amount of time. Ex: The infinite loop. Runtime errors are usually caused by a  statement in your code that seems logically sound, but the computer physically has no way of  computing it in a reasonable amount of time.  
-- 51:53
+- Psudeocode is thinking through the flow of your code before runing it (especialy loops), and carefuly planning out the code before writing.
+- Logic errors provide results you did not want. To prevent this, test your code invrementally and often.
+- To debug, read the error message, it provides you the line where the code turns bad. Google it. Use a print statement on each line. Use breakpoints to pause the program. Comment out the section of error. To prevent errors, backup the code frequently
 
+## Functions
+- A function is a segment of code that can be fun by colling the function name. Can be called numrous times and in numerious places. 
+- Functions serve many purposes, often, you will just import the ones you need in your program. There are four types of functions. Functions branch into ones that take argument or not, then reutrns values or returns no values.
+- Arguments are variables we pass into a function in order to be manipulated then either returned back to us, printed to the console, or used in another operation. 
+- Functions that don't take in arguments are when you package multiple functions into one.
+- Functions that return values are string, interger, array , etc. Functions that don't return anything are called void functions which take no arguments and returns no value.
+- You can import functions from libraries of pre-made functions. A library is a collection of funtions that all have similar functions. You can do this using an `Import` statement, which contains the word import followed by the library name, package, and class.
+- A package is a smaller set of functions and   methods to help differentiate between the 1000s  of methods contained in a library
+- A class is a specialized function in that package.
+- You can create functions. A function is made up of scope (who can use it), declaring and stating what type of function it is (the function type), and the function name followed by parenthesese, then write what you want it to do by writing arguments in the curcly braces.
+- An expression is an operation statement that returns a value. For example 2 + 2 = 4.
+
+## Data Structures
+- There are many ways to search through lists. Searching algorithms are ways in which we can look through a list of values  stored in an array, and find a particular piece of data. used to return the index of a particular data points so that  it can be used, modified or updated or checked on.
+- There are two states of lists sorted or unsorted. Big O notation is a value used to dtermine the efficiency of a searching algo that is based on the average number of items and worst case scenario.
+   - Linear searches start at the beginning and systematically check each data point until you find the value. 
+   - Binary search uses a recursive process, meaning the computer breaks down the list into smaller parts to find the item your looking for. Only works in a sorted list. It looks ata  list, starts the search in half, then moves up or down to find the value. Recursion is the process of using functions that repeatedly call themselves. Basically, when you code an instruction, a step in that instruction is to call another or same function. 
+   - Will need to rewatch recursion to full understand the process. Recursion is useful because it breaks large problems into smaller simpler pieces to compute.
+   - A stack is a data structure that contains all the tasks you instruct your program to complete. A LIFO data structure. Stack overflow occurs when you cannot complete the last instructions and causing an infinite loop.
+
+## Writing Code strategies
+- A majority of programming is thinking about the code rather than writing it. It is about planning the smaller steps to solve the problem. Constructing an outline for the paper. Three main ways to plan pseudcode is
+   - flowchats, which can be used to think through the process of a particular function. Flowchart method is good for thinking through the flow of a function. 
+   - Another popular method is to write out what you want your code to do and fill in the functions. The write up method is good for getting the general idea of a program.
+   - The final is functionality planning, which is writing out the main features you want the user to have using our program, also what functions or smaller programs you're gon to need to complete those features. Functionality is good for listing out the certain functions of a certain program. 
 
 ---
 
