@@ -16,19 +16,24 @@ SUMMARY
 
 ## Basic Data structures
 1. Arrays and ArrayLists
-   - An array is a list of similar values that can store anything, but stores values of the same type. Parallel arrays are two or more arrays which contain the same number of elements that have corresponding values in the same position. Two dimensional arrays are arrays within an array where the data is related (think rows and columns).  
+- An array is a list of similar values that can store anything, but stores values of the same type. Parallel arrays are two or more arrays which contain the same number of elements that have corresponding values in the same position. Two dimensional arrays are arrays within an array where the data is related (think rows and columns). When you reference a value in an array you are calling the index that points to it's corresponding value.
    - Elements are the individual items stored in the array.
    - An array has 3 attributes, a name, a type, and a size. In an array, it has to store all type of the same type of information. It's size refers to the total mount of elemtns tat are able to be stored within the array and cannot be changed.
    - There are two different ways to create an array in most languages, you can populate the array with elements or you can set a specific size for the array to populate it later.
    - To get/retrieve/reference infomration that is stored in an array, we use a numerical index. An integer which corresponds to an element within the array.
-   - Accessing is 0(1) because it is stored in memory and allows instand access. Serching is O(n) because it is a linear search. Inserting and Deleting is O(n) because you must shift every element to the right to make space for the new element.
+   - Accessing is O(1) because it is stored in memory and allows instand access due to independant elements. Serching is O(n) because it is a linear search. Inserting and Deleting is O(n) because you must shift every element to the right to make space for the new element.
    - Pros: Good for storing similar continuous data, gret accessing power, and it is easy to learn and master
    - Cons: Size of the array cannot be changed once initialized, inserting and deleting are not efficient, and can be wasting storage space.
-  
+- Array and Array Lists are Random Access Data Structures.
 
  
 ## Intermediate Data structures
-- Stacks
+- These are sequenctial Access Data Structures, which can only be accessed in a particular order. Each element is dependent on the others and may only be obtained through those other elements.
+- Stacks: A sequenctial Access Data Structure where we add elements and remove elements according to the LIFO principle. Common methods below. Peek and contains are used to interact with the data inside the stack without actualy changing it. 
+   - Push: Push an object or elements onto the top of the stack.
+   - Pop: Used to remove an element from the top of the stack. It runs the element at the top of the stack to remove it.
+   - Peek: Allows you to get the value at the top of the list wihtout removing it. 
+   - Contains 
 - Queue
 - Linked Lists
 - Dictionary
@@ -51,7 +56,9 @@ SUMMARY
  <summary>SOURCES</summary>
 
 ---
-- https://www.youtube.com/watch?v=3b7NiTO8U4g&list=PLzZR2BJ8ICYvXOdi7ML8TYXiSCLO0gMxV
+- Intro to Programming, OOP, and Data Structures - https://www.youtube.com/watch?v=3LPJfIKxwWc&list=PLhQjrBD2T381WAHyx1pq-sBfykqMBI7V4
+- https://www.youtube.com/watch?v=wv90D4dZUA0&list=PLzZR2BJ8ICYvXOdi7ML8TYXiSCLO0gMxV&index=15
+- Function shorts - https://www.youtube.com/watch?v=lGS6O47debI
 
 ---
 
