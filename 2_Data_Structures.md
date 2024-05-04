@@ -26,14 +26,14 @@ SUMMARY
    - Cons: Size of the array cannot be changed once initialized, inserting and deleting are not efficient, and can be wasting storage space.
 - Array and Array Lists are Random Access Data Structures.
 
- 
-## Intermediate Data structures
+
+## Intermediate Data structures 1:18:06
 - These are sequenctial Access Data Structures, which can only be accessed in a particular order. Each element is dependent on the others and may only be obtained through those other elements.
-- Stacks: A sequenctial Access Data Structure where we add elements and remove elements according to the LIFO principle. Common methods below. Peek and contains are used to interact with the data inside the stack without actualy changing it. 
+- Stacks: A sequenctial Access Data Structure where we add elements and remove elements according to the LIFO principle. Common methods below. Peek and contains are used to interact with the data inside the stack without actualy changing it. Stacks are used for recursion, the process of functions repeatedly calling themselves, uses stacks as a way of keeping track of active functions or subroutines for example, the undo/redo buttion, back-paging, 
    - Push: Push an object or elements onto the top of the stack.
    - Pop: Used to remove an element from the top of the stack. It runs the element at the top of the stack to remove it.
-   - Peek: Allows you to get the value at the top of the list wihtout removing it. 
-   - Contains 
+   - `Peek()`: Allows you to get the value at the top of the list wihtout removing it. 
+   - Contains() method: Used for searching through the stack.
 - Queue
 - Linked Lists
 - Dictionary
