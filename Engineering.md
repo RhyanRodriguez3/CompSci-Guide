@@ -2,7 +2,7 @@
 - Engineering is problem solving. They work in teams and use science and mathematics as tools to solve problems. 
 - To solve a probelm you have to understand the problem. Break the problem down into smaller units. Then analyze each of those units and identify properties. Its all about being clever.
 - Engineering was created for military engineering and civil for civilian purposes. Mechanical engineering focuses on machines. The four main brances of engineering are civil, mechanical, electrical, and chemical.
-- How to build things, design things, and solve problems.
+- How to build things, design things, and solve problems. An engineer's job is to make something as best and efficient as can be. Engineering is all about createing solutions thorugh clever designs and work arounds.
 
 ## Civil Engineering
 - Civil engineering focuses on structures and buildings. Structural engineering focuses more on the design and framework of structures while construction engineering is more involved with actually building the structure. Think aqueducts, bridges, streets, sewage, supply transportation, buildings, and sanitation.
@@ -29,10 +29,15 @@
 - Biomedical engineering focuses on advancements that improve our health, from diagnosis and analysis of medical conditions, to their treatment and recovery.
 
 ## The Law of Conservation
-- d
-https://www.youtube.com/watch?v=VxCORJ8dN3Y&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=8
+- The law of conservation states matter and energy can neither be created nor destroyed.
+- The problem usually is made up of a system, a process in that system, and everything else is the surroundings. A steady state is a system in which the process inputs and outputs are constant. Don't expect everything to be perfectly efficient, but you can get close, in other words get as much output from the input as you can.
+- In a process, a conversion describes how much of our inital input was used in the process. 
+
 
 ## Reversibility & Irreversibility
+- d
+https://www.youtube.com/watch?v=RKOPoJzqH94&list=PL8dPuuaLjXtO4A_tL6DLZRotxEb114cMR&index=9
+
 ## The First & Zeroth Laws of Thermodynamics
 ## Why We Can't Invent a Perfect Engine
 ## Heat Engines, Refrigerators, & Cycles
