@@ -108,31 +108,15 @@ which are usually called methods.
 </details>
 
 <details>
- <summary>FireShip How to Program</summary>
+ <summary>OOP</summary>
 
 ---
 ## Fundamental Concepts of Object Oriented Programming
-- APIE: are the four pillars of object oriented programming. 
-- Abstraction means to simplify reality. For example, if you were designing an app you simplify / break down the smalled bits of data about the thing you want to recreate. Taking real world objects and 
-and representing them within code.
-- OOP is a programming paradigm based on the concept of objects. 
-   - Objects contain data in the form of attributes or properties and actions in thr form or functions or methods. For example, computer monitor (object), size or resolution (properties), on/off brightness is functions or methods.
-   - Abstraction  means to only show the necessary details to the user of the object. You only care about calling the method, not the underlying implementation.
-   - Inhertiance, useful when you have an existing class and you want to build a new class that uses the stuff from the previous class but you want to add additional features.
-   - Encapsulation, restircting access to properties or methods of your object, to prevent 
- 
-
-- abstraction means to simplify reality and focus only on the data and processes that are relevant to the application being built.
-- encapsulation means that data and the programs that manipulate those data are bound together and their complexity is hidden
-- inheritance means that a class can derive its methods and properties from another class this might result in an extensive hierarchy of superclasses and subclasses
-- polymorphism means that different subclasses of the same superclass which therefore share the same interface can implement those interfaces in their own ways by overriding the code of the methods they inherit. Akkiws you to  you to determine what kind of function to run while the program is running. For example, the class is enemy (contains code), inheritance is making a vampire using that class, 
-- Objects are the thing that you want to store and process data about.
-- To program objects, you need a class. A class is a template for creating objects. It is an instance of a class in the computer's memory. For example, person.
-- Attributes describe the object aka fields / properties. For example, person firsName, Gener, DOB
-- Operations are actions that can be done to the object or performed by the object. Aka methods: programs within the class that are coded as procedures or functions.
-- Encapsulation : Hides the data and complexity. Intended to hide and prevent errors. Senior programmers create classes of libraries where junior coders use and need the class name, properties, and methods available.
-- Inheritance: A class can derive its methods and properties from another class. Inheritance defines type of relationships. The base class is the start of the hiearchy, sublasses derived from, and
-- Polymorphism means that a class can implement an inherited method in its own way
+- Primitive Data types store single, simple values. For example, Byte, Int, Float, Boolean, Double, Char.
+- Using structures, you can store similar pieces of data together. You can even store data structures within data structures. Fore xample, when designing a chess game, you can store all the information (pieces of data) relating to the knoght such as its position, color, and captured. Then store the knight structures together in one structure that represents all of the knights.
+- With structures, you cannot define functions within a structure, you can only reference them. 
+- Objects are instances of a class. A class is a template for an object. Chess example, you define a knight class (object), in the class you create and store functions (moves), then initialize the specifics such as color and position.
+- Object oriented program helps programmers created complex programs by grouoping together related data and function. There are four principles of OOP, encapsulation, abstraction, inheritance, and polymorphism
 
 ---
 
@@ -179,6 +163,7 @@ My SUMMARY: The levels of languages. He used a few key terms I'll have ot furthe
 - FireShip - https://www.youtube.com/watch?v=-uleG_Vecis
 - Traversy Media - https://www.youtube.com/watch?v=2lVDktWK-pc
 - freeCodeCamp - https://www.youtube.com/watch?v=zOjov-2OZ0E
+- NullPointerException - https://www.youtube.com/@NullPointerException/playlists
 ---
 
 </details>
