@@ -52,7 +52,7 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles. Rese
 - To debug, read the error message, it provides you the line where the code turns bad. Google it. Use a print statement on each line. Use breakpoints to pause the program. Comment out the section of error. To prevent errors, backup the code frequently
 
 ## Functions
-- A function is a segment of code that can be fun by colling the function name. Can be called numrous times and in numerious places. 
+- A function is a segment of code that can be fun by calling the function name. Can be called numrous times and in numerious places. 
 - Functions serve many purposes, often, you will just import the ones you need in your program. There are four types of functions. Functions branch into ones that take argument or not, then reutrns values or returns no values.
 - Arguments are variables we pass into a function in order to be manipulated then either returned back to us, printed to the console, or used in another operation. 
 - Functions that don't take in arguments are when you package multiple functions into one.
@@ -112,11 +112,18 @@ which are usually called methods.
 
 ---
 ## Fundamental Concepts of Object Oriented Programming
+
 - Primitive Data types store single, simple values. For example, Byte, Int, Float, Boolean, Double, Char.
 - Using structures, you can store similar pieces of data together. You can even store data structures within data structures. Fore xample, when designing a chess game, you can store all the information (pieces of data) relating to the knoght such as its position, color, and captured. Then store the knight structures together in one structure that represents all of the knights.
 - With structures, you cannot define functions within a structure, you can only reference them. 
 - Objects are instances of a class. A class is a template for an object. Chess example, you define a knight class (object), in the class you create and store functions (moves), then initialize the specifics such as color and position.
 - Object oriented program helps programmers created complex programs by grouoping together related data and function. There are four principles of OOP, encapsulation, abstraction, inheritance, and polymorphism
+   - encapsulation means bundling data with methods that can operate on that data within a class. It's generally best to not allow external classes to directly edit an object's attributes. Each piece should not have access to or rely on the inner working of other sections of code. Information hiding, keeping the data of one class hidden from external classes, helps you keep control of your program and prevent it from becoming too complicated.
+   - abstraction: the classes you create should act like your car users of your classes should not worry about the exact inner details of said classes. The interface referes tot he way sections of code can communicat with one another, don ethrough methods that each class is able to access. The implementation of these methods or how these ethods are coded should be hidden. Chess example, the knight needs to be programmed by anohther programmer that the king is in check so the knight cannot move until it is out of check. abstraction  allows the program to be worked on incrementally and prevents it from becoming completely entangled in itself and very complex. determine specific 
+points of contact that can act as the interface between classes and only worry about the implementation behind it when working on that section.
+   - inheritance: is the principe that allows classes to derive from other classes. Classes can inherit ceratin methods and attributes from anohter class. A weapon would be the superclass and the sword and club would be its subclass. Any weapon would require the methods and attributes present in the weapon class in order to function. Access modifiers change which classes have access to other classes, methods or attributes which are public, private, and protected. Public members or calss can be accessed from anywhere in your program. The private modifier means private memebrs can only be accessed from within the same class that themember is defined. Protected members can ebe accessed within the class it is defined, as well as any subclasses of that class. 
+   - polymorphism describes methods that are able to take on many forms. There are two types of polymorphism. dynamic polymorphism occurs during run time when the program is being executed, themethods share the same name but have different implementation. For example, you create a class, then a subclass of car called sportsCar which will use the drive method that decreases each class gass differently. the second type of polymorphism is static polymorphism static polymorphism occurs during 
+compile time rather than run time this refers to when multiple methods with the same name are defined in the same class. Ways to differentiate methods of the same name are different numbers of parameters, differet types of parameters, and a different order of parameters. polymorphism simply allows methods to take on many different forms.  it can be very useful in that it allows methods of the same name to exist both in the same class and in different classes however you must be careful to ensure that you are calling the correct form of the method that you want so your program can function as intended.
 
 ---
 
