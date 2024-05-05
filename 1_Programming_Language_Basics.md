@@ -1,13 +1,15 @@
 # Programming Language Guide
 Purpose: to be a good enough programmer to qualify for junior BI dev roles. Research a lanaugae we've talked baout that intereste you. Research their official website and wiki page to decide if thats the language you would like to start with. Then learn the langugage you decide to pursure, use youtube as a source. Once you learn how to program using that languages syntax and concepts, use coding bat to kick start your code writing, coderbyte with challegnes, and hackerRank. Important com sci concepts are data strutures, and data science. 
 
+
+
 <details>
  <summary>Introduction to Programming and Computer Science - Full Course</summary>
 
 ---
 ### The computer
-- Programming is the process of preparing an instructional program for a device. Attempting to get a computer to  complete a specific task without making mistakes.  
-- The computer only understands machine code, which is binary code. You need to convert your instructions for the machien to execute it. Programming languages are fundamentally a middleman for translating a  program into machine code. they serve as interprets for converting languages into other languages.
+- Programming is the process of coding specific instructions for a device. Programs are instructions that your computer interprets to carry out the tasks you want it to. Programming is essentially converting instructino into machine code.
+- The computer only understands machine code, which is binary code. You need to convert your instructions for the machien to execute it. Programming languages are fundamentally a middleman for translating a  program into machine code. they serve as interprets for converting languages into other languages. you write instructions in a programming language and the instructions are then converted into machine code which the computer interprets and carries out.
 - There are many programming languages and each have their own specific uses, general purpose languages like pythong and Java can perform a variety of computational tasks and other languages are for specific tasks. Low  low level programming languages, such as assembly, or C, are closer to binary than  a high level programming language, such as Java or Python. Each language is specified for specific tasks and has its own advantages and disadvantages. High level langauges have more abstraction from machine code an easier to learn, lower level languages are closer to the machine cldoe but often provide more functionality.
   - For web development: HTML and CSS. HTML is a markup language used for writing the content of a website.  CSS is used to style the design of a website.
   - A scripting langauge is a langauge with many commands for you to use than can be run without being compiled. Easier to port between operating systems. Also used in web dev. Ex are Perl, PHP, Ajax, and JavaScript.
@@ -52,7 +54,8 @@ Purpose: to be a good enough programmer to qualify for junior BI dev roles. Rese
 - To debug, read the error message, it provides you the line where the code turns bad. Google it. Use a print statement on each line. Use breakpoints to pause the program. Comment out the section of error. To prevent errors, backup the code frequently
 
 ## Functions
-- A function is a segment of code that can be fun by calling the function name. Can be called numrous times and in numerious places. 
+- A function is a piece of code that takes an input and produces some outpute. You call a function to use it `Print()`. A function is a segment of code that can be fun by calling the function name. Can be called numrous times and in numerious places. 
+- YOu can create your own function, called defining. 
 - Functions serve many purposes, often, you will just import the ones you need in your program. There are four types of functions. Functions branch into ones that take argument or not, then reutrns values or returns no values.
 - Arguments are variables we pass into a function in order to be manipulated then either returned back to us, printed to the console, or used in another operation. 
 - Functions that don't take in arguments are when you package multiple functions into one.
