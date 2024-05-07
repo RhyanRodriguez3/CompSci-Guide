@@ -1,4 +1,5 @@
-# Data Science Guide
+# Data Professionals Guide
+Before you invest any of your time diving into the latest industry buzzwords (during my time it was "Big Data" and "Python"), there are fundamental concepts you'll need to learn. Each concept is outlined below.
 
 ## 🖥️ Computer Science
 Computers are made up of hardware and software.
